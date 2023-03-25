@@ -10,7 +10,7 @@ class User < ApplicationRecord
   VISUALIZADOR = 'Visualizador'
   SUPERVISOR = 'Supervisor'
   COORDENADOR = 'Coordenador'
-  GESTOR_TIC = 'TIC'
+  TIC = 'TIC'
 
   PROFILE = [
     VISUALIZADOR,
