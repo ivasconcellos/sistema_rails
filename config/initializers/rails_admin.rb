@@ -9,6 +9,12 @@ RailsAdmin.config do |config|
   # end
   # config.current_user_method(&:current_user)
 
+  config.authenticate_with do
+    warden.authenticate! scope: :admin
+  end
+  config.current_user_method(&:current_admin)
+
+
   ## == CancanCan ==
   # config.authorize_with :cancancan
 
@@ -39,4 +45,13 @@ RailsAdmin.config do |config|
     # history_index
     # history_show
   end
+
+  config.model 'User' do 
+    fields :name, :cpf, :email, :password, :password_confirmation, :active
+    
+    field :profile, :enum do
+      enum { User::PROFILE }
+    end
+  end
+
 end
