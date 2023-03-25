@@ -60,3 +60,6 @@ gem 'pg'
 
 #Devise
 gem 'devise'
+
+#Rails admin
+gem 'rails_admin', '~> 3.0'
