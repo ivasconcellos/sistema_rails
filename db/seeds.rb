@@ -8,4 +8,4 @@
 
 Admin.create! email: 'admin@admin.com.br', password: '12345678'
 
-User.create! name:'user_teste' cpf: '123.456.789-10' email: 'user@teste.com.br', password: '12345678'
+User.create! name:'user_teste', cpf: '123.456.789-10', email: 'user@teste.com.br', password: '12345678'
