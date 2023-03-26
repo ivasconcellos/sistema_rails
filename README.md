@@ -14,15 +14,15 @@ Projeto criado por Isadora Vasconcellos
 
 
 ## Funcionalidades
-* Cadastro de usuário
+* Cadastro de usuário;
 
-* Login de usuário
+* Login de usuário;
 
-* Listagem de dados de usuário logado
+* Listagem de dados de usuário logado;
 
-* Edição de dados de usuário logado
+* Edição de dados de usuário logado;
 
-* Logout
+* Logout;
 
 * Sessão configurada por 60 segundos (logout automático após esse tempo);
 
