@@ -2,11 +2,11 @@
 
 Projeto criado por Isadora Vasconcellos
 
-## Tecnologias
+## Tecnologias utilizadas
 
-* Ruby 3.0
+* Ruby 3.0.0
 
-* Rails 6.1
+* Rails 6.1.6
 
 * Bootstrap 5
 
