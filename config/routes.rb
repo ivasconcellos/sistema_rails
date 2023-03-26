@@ -1,6 +1,10 @@
 Rails.application.routes.draw do
+  #Pages
+  get 'initial' => 'pages#initial'
+  get 'about' => 'pages#about'
+
+
   devise_for :admins
-  mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
   devise_for :users
   
   #Initial Page
@@ -8,4 +12,5 @@ Rails.application.routes.draw do
     root :to => "devise/sessions#new"
   end
 
+  mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
 end
