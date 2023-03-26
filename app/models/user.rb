@@ -4,7 +4,7 @@ class User < ApplicationRecord
   devise :database_authenticatable, :registerable, :timeoutable,
          :recoverable, :rememberable, :validatable, :authentication_keys => [:cpf]
 
-  validates_uniqueness_of :cpf
+  validates_uniqueness_of :cpf, message: ": - Este CPF já está em uso!"
   validates_presence_of :name, :cpf, :email
   
   VISUALIZADOR = 'Visualizador'

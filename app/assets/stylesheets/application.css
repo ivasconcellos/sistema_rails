@@ -156,3 +156,7 @@ th, td{
   background-color: #ee4916;
   color: #FFFFFF;
 }
+
+label{
+  font-weight: bold;
+}
