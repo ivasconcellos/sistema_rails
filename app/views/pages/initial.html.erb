@@ -1,2 +1,23 @@
-<h1>Pages#initial</h1>
-<p>Find me in app/views/pages/initial.html.erb</p>
+<div class="card">
+  <div class="card-header">
+    <div class="panel-title">Usuário</div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-12 ">
+      <ul class="list-group">
+        <li class="list-group-item"><b>Nome:</b> <%= @user.name %></li>
+        <li class="list-group-item"><b>CPF:</b> <%= @user.cpf %></li>
+        <li class="list-group-item"><b>E-mail:</b> <%= @user.email %></li>
+        <li class="list-group-item"><b>Perfil:</b> <%= @user.profile %></li>
+        <li class="list-group-item"><b>Cadastrado em:</b> <%= @user.created_at.strftime("%d/%m/%Y - %H:%M:%S") %></li>
+        <li class="list-group-item"><b>Atualizado em:</b> <%= @user.updated_at.strftime("%d/%m/%Y - %H:%M:%S") %></li>
+      </ul>
+    </div>
+  </div>                                        
+
+  <div class="card-footer text-muted text-center">
+    <%= link_to 'Atualizar', edit_user_registration_path, :class =>"w-25 btn btn-success"  %>
+  </div>
+
+</div>

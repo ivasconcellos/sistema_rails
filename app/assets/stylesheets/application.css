@@ -65,7 +65,7 @@
     -webkit-overflow-scrolling: touch;
   }
   main > .container {
-    padding: 60px 15px 0;
+    padding: 40px 15px 0;
 }
 
 .navbar{
@@ -109,8 +109,13 @@ a.nav-link:hover {
 .btn{
   min-width: 120px;
 }
+
 .btn-success{
   background-color: #130a53;
+}
+
+.btn-success:hover{
+  background-color: #1c116b;
 }
 
 .btn-info{
