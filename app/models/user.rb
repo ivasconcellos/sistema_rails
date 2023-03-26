@@ -18,5 +18,11 @@ class User < ApplicationRecord
     COORDENADOR,
     TIC
   ]
+
+  def active_for_authentication?
+    if :active
+      super && active?
+    end
+  end
        
 end

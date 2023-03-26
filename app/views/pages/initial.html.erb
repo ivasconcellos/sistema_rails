@@ -10,6 +10,7 @@
         <li class="list-group-item"><b>CPF:</b> <%= @user.cpf %></li>
         <li class="list-group-item"><b>E-mail:</b> <%= @user.email %></li>
         <li class="list-group-item"><b>Perfil:</b> <%= @user.profile %></li>
+        <li class="list-group-item"><b>Ativo:</b> <%= @user.active? ? 'Sim' : 'Não' %></li>
         <li class="list-group-item"><b>Cadastrado em:</b> <%= @user.created_at.strftime("%d/%m/%Y - %H:%M:%S") %></li>
         <li class="list-group-item"><b>Atualizado em:</b> <%= @user.updated_at.strftime("%d/%m/%Y - %H:%M:%S") %></li>
       </ul>
