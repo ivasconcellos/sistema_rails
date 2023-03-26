@@ -1,4 +1,4 @@
-# Ruby on Rails
+# Projeto Ruby on Rails
 
 Projeto criado por Isadora Vasconcellos
 
@@ -12,3 +12,18 @@ Projeto criado por Isadora Vasconcellos
 
 * Banco de dados: PostgreSQL
 
+
+## Funcionalidades
+* Cadastro de usuário
+
+* Login de usuário
+
+* Listagem de dados de usuário logado
+
+* Edição de dados de usuário logado
+
+* Logout
+
+* Sessão configurada por 60 segundos (logout automático após esse tempo);
+
+* Área de administração (Rails Admin).
