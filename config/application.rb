@@ -13,7 +13,7 @@ module SistemaRails
 
     config.time_zone = 'Brasilia'
     config.i18n.default_locale = :'pt-BR'
-
+    config.action_mailer.default_url_options = { host: 'http://localhost:3000' }
     # config.eager_load_paths << Rails.root.join("extras")
   end
 end

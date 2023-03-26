@@ -23,7 +23,7 @@ pt-BR:
       confirmation_instructions:
         subject: "Instruções de confirmação"
       reset_password_instructions:
-        subject: "Reativação de senha - Inscrições CELIFF 2022.1"
+        subject: "Reativação de senha"
       unlock_instructions:
         subject: "Instruções para desbloquear sua conta"
       password_change:
