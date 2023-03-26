@@ -1,26 +1,46 @@
-<h2>Log in</h2>
+<div class="row ">
+  <div class="col-md-6 offset-md-3">    
+    <div class="card"> 
+      <div class="card-header">        
+        <div class="panel-title">Login</div>
+      </div>
+      
+      <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+        <div class="card-body">
 
-<%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
-  <div class="field">
-    <%= f.label :email %><br />
-    <%= f.email_field :email, autofocus: true, autocomplete: "email" %>
-  </div>
+          <div class="col-12 py-3">
+            <div class="input-group has-validation">
+              <span class="input-group-text">CPF*</span>
+              <%= f.text_field :cpf, autofocus: true, class: "form-control",  id: "cpf",  placeholder: "CPF" %>
+            </div>
+          </div>
 
-  <div class="field">
-    <%= f.label :password %><br />
-    <%= f.password_field :password, autocomplete: "current-password" %>
-  </div>
+          <div class="col-12 py-3">
+            <div class="input-group has-validation">
+              <span class="input-group-text">Senha*</span>
+              <%= f.password_field :password, class: "form-control",  id: "password",  placeholder: "Senha" %>
+            </div>
+          </div>
 
-  <% if devise_mapping.rememberable? %>
-    <div class="field">
-      <%= f.check_box :remember_me %>
-      <%= f.label :remember_me %>
-    </div>
-  <% end %>
+          <div class="col-12 py-3">
+            <%= f.check_box :remember_me, id: "remember" %>
+            <label class="form-check-label" for="save-info">Lembrar de mim</label>
+          </div>
 
-  <div class="actions">
-    <%= f.submit "Log in" %>
-  </div>
-<% end %>
+        </div>
+
+        <div class="card-footer">
+          <%= f.submit "Acessar", class: "w-100 btn btn-primary btn-lg" %>
 
 <%= render "users/shared/links" %>
+        </div>
+      <% end %>
+
+    </div>
+  </div>
+</div>
+
+
+
+
+

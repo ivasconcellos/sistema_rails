@@ -13,3 +13,141 @@
  *= require_tree .
  *= require_self
  */
+
+ .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+  .b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  }
+
+  .b-example-vr {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 100vh;
+  }
+
+  .bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+  }
+
+  .nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+  }
+
+  .nav-scroller .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+  main > .container {
+    padding: 60px 15px 0;
+}
+
+.navbar{
+  background-color: #130a53;
+}
+
+.navbar-brand{
+  font-weight: 900;
+  color: #FFFFFF;
+}
+
+.nav-link, .nav-item{
+  color: #FFFFFF;
+  font-weight: 600;
+}
+
+footer{
+  background-color: #130a53;
+}
+
+.card-header{
+  text-align: center;
+  font-weight: 900;
+  background-color: #130a53;
+  color: #FFFFFF;
+  font-size: 1.5em;
+}
+
+a.navbar-brand:hover {
+  color: #26F4FF;
+}
+
+a.nav-link:hover {
+  color: #26F4FF;
+}
+
+.login{
+  text-align: right;
+}
+
+.btn{
+  min-width: 120px;
+}
+.btn-success{
+  background-color: #130a53;
+}
+
+.btn-info{
+  background-color: #0d7c93;
+  color: #FFFFFF;
+}
+
+.card-footer{
+  background-color: #222185;
+}
+
+select.form-control { 
+  background-image: none;
+  -webkit-appearance: menulist!important;
+  -moz-appearance: menulist!important;
+  -ms-appearance: menulist!important;
+  -o-appearance: menulist!important;
+  appearance: menulist!important;
+}
+
+.input-group-text, .form-check-label{
+  font-weight: 900;
+}
+
+.input-group-text{
+  background-color: #c5cbd0;
+}
+
+th, td{
+  text-align: center;
+}
+
+.navbar-nav .nav-link.active{
+  color: #80eec9;
+}
+
+.btn-warning{
+  background-color: #ee4916;
+  color: #FFFFFF;
+}

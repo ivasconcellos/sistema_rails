@@ -8,6 +8,17 @@ import Turbolinks from "turbolinks"
 import * as ActiveStorage from "@rails/activestorage"
 import "channels"
 
+import 'bootstrap/dist/js/bootstrap'
+import "bootstrap/dist/css/bootstrap";
+import '../../assets/stylesheets/application.css'
+
+import Inputmask from "inputmask"
+
+$(function() {
+    Inputmask("999.999.999-99").mask("cpf");  
+});
+
+
 Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
