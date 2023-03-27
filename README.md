@@ -29,4 +29,4 @@ Projeto criado por Isadora Vasconcellos
 * Área de administração (Rails Admin).
 
 ## Observação
-Deve ser criado o arquivo "database.yml" dentro da pasta "app/config" de acordo com o banco de dados que será utilizado. Neste projeto, foram configuradas, para instalação, as Gems para os bancos de dados SQLite e PostgreSQL. O arquivo example_database.yml contém exemplos de como configurar a conexão com esses bancos de dados.
+Deve ser criado o arquivo "database.yml" dentro da pasta "app/config" de acordo com o banco de dados que será utilizado. Neste projeto, foram configuradas, para instalação, as Gems para os bancos de dados SQLite e PostgreSQL. O arquivo "example_database.yml" contém exemplos de como configurar a conexão com esses bancos de dados.
